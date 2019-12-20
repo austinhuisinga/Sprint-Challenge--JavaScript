@@ -39,6 +39,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
+  nestedfunction can access internal because of the shared lexical environment
 
 const external = "I'm outside the function";
 
